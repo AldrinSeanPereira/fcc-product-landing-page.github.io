@@ -14,13 +14,14 @@
   //border: 1px solid black;
 }
 
-html, body {
+html, 
+body {
   font-size: 10px;
   font-family: sans-serif;
   background-color: var(--background-color1);
   color: var(--border-color1);
   height: 100vw;
-  width: 100vw;
+  width: 100%;
 }
 
 header,
@@ -226,7 +227,6 @@ footer {
   min-width: 30rem;
 }
 
-
 .footer-links p{
   margin-left: 2rem;
   font-size: 1.6rem;
@@ -238,7 +238,9 @@ footer {
   font-size: 1.1rem;
 }
 
+
 @media only screen and (max-width: 620px) {
+
   html,
   body {
     width: 100%;
@@ -315,7 +317,7 @@ footer {
     margin-bottom: -2rem;
   }
 
-  #video {
+  #how-it-works #video {
     width: 40rem;
     height: 25rem;
     margin: 2rem auto;
@@ -346,25 +348,55 @@ footer {
   }
 }
 
+
 @media only screen and (max-width: 500px) {
+
   html,
   body {
-    min-width: 40rem;
+    min-width: 30rem;
     width: 100%;
-    overflow-x: none;
+    overflow: none;
+    background-color: var(--background-color2);
   }
 
   #features {
-    margin: 10rem 0 10rem 0;
+    margin: 12rem 0;
   }
 
   .features-text h2 {
     font-size: 1.8rem;
   }
 
-  #video {
+  #how-it-works #video {
     width: 35rem;
     height: 22rem;
-    margin: auto;
+    margin: 2rem auto;
   } 
+
+  .price-item {
+    width: 80%;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  
+  html, body {
+    background-color: pink;
+  }
+
+  #features {
+    margin-top: 15rem;
+  }
+  
+  .features-images img{
+    width: 7rem;
+    height: 7rem;
+  }
+
+  #how-it-works #video {
+    width: 25rem;
+    height: 15rem;
+    margin-top: 4rem;
+  }
 }
