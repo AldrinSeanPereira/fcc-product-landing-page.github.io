@@ -385,7 +385,7 @@ footer {
   
   html, 
   body {
-    min-width: 30rem;
+    min-width: 20rem;
     background-color: var(--background-color1);
     margin: auto;
     overflow: none;
