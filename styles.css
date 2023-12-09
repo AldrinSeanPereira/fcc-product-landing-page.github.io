@@ -11,7 +11,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  //border: 1px solid black;
+  border: 1px solid black;
 }
 
 html, 
@@ -244,7 +244,6 @@ footer {
   html,
   body {
     width: 100%;
-    min-width: 300px;
   }
 
   header {
@@ -353,10 +352,9 @@ footer {
 
   html,
   body {
-    min-width: 30rem;
     width: 100%;
     overflow: none;
-    background-color: var(--background-color2);
+    background-color: var(--background-color1);
   }
 
   #features {
@@ -376,13 +374,21 @@ footer {
   .price-item {
     width: 80%;
   }
+
+  .footer-links p{
+    margin: 0 0.4rem;;
+  }
 }
 
 
 @media only screen and (max-width: 400px) {
   
-  html, body {
-    background-color: pink;
+  html, 
+  body {
+    min-width: 30rem;
+    background-color: var(--background-color1);
+    margin: auto;
+    overflow: none;
   }
 
   #features {
@@ -397,6 +403,6 @@ footer {
   #how-it-works #video {
     width: 25rem;
     height: 15rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 }
