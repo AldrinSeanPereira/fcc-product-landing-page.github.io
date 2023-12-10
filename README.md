@@ -1,9 +1,10 @@
 # fcc-product-landing-page.github.io
 
+--------------------------------
 ### NOTE: 
 #### The latest code is not being shown on the live website for some reason :(
 #### but the code shown so far is still 90% good enough 
-
+--------------------------------
 This is a big one for me technically. I spent around 4 days on this and learned so much about Responsive Web Design.
 
 Although not perfect, I struggled to understand how to make the navbar responsive, how to align the elements correctly etc.
