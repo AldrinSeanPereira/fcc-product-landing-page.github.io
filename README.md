@@ -1,10 +1,16 @@
 # fcc-product-landing-page.github.io
 
+### NOTE: 
+#### The latest code is not being shown on the live website for some reason :(
+#### but the code shown so far is still 90% good enough 
+
 This is a big one for me technically. I spent around 4 days on this and learned so much about Responsive Web Design.
 
 Although not perfect, I struggled to understand how to make the navbar responsive, how to align the elements correctly etc.
 
-NOTE:
+I could not implement CSS Grid on this but will make more projects to practice with it
+
+SIDE-NOTE:
 when faced with a problem, definitely consider taking a long break and a walk. It helps.
 I personally slept overnight with the problem (like making the nav bar responsive and aligned) running in my head furiously
 
